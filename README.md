@@ -15,7 +15,7 @@ This plugin works by being called on any jQuery selector, and takes two argument
 - mediaQuery: a string set to either 'min-width' or 'max-width'
 - threshold: an integer set to the width in pixels* that will trigger the "media query"
 
-When the width of the element the function is called on gets above or below the threshold you supplied (depending on how you set the mediaQuery argument), a class name is dynamically added that follows the form of "mq-_mediaQuery_-_threshold_", where the values in italics match the values you supply to the function.
+When the width of the element the function is called on gets above or below the threshold you supplied (depending on how you set the mediaQuery argument), a class name is dynamically added that follows the form of "mq-[mediaQuery]-[threshold]", where the values in brackets match the values you supply to the plugin.
 
 _*em-based width support is coming. Patience, young padawan..._
 ## An Example
@@ -30,7 +30,7 @@ will change your markup from this...
 
 ...to this:
 
-    <div class="my-element mq-min-width-500"
+    <div class="my-element mq-min-width-500">
 
 Chaining is obviously supported, so you can call the function several times in a row on the same selector to add more than one media query to the element, like so:
 
