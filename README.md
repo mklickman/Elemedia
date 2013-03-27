@@ -50,4 +50,5 @@ If I catch you putting CSS in your JavaScript, I will personally migrate all you
 
 ## Changelog
 
-- ```v 1.0``` - Initial release
+- ```v 1.0```   - Initial release
+- ```v 1.0.1``` - Fixed window resize bug (see issue #2)
