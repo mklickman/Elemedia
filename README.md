@@ -1,3 +1,5 @@
+> UPDATE: if you happened to find this repository and are considering using it in your project, I would suggest using [tysonmatanich](https://github.com/tysonmatanich)'s much more robust solution, [ElementQuery](https://github.com/tysonmatanich/elementQuery).
+
 # Elemedia.js
 
 Style elements based on their own widths, regardless of viewport width!
